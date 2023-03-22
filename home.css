@@ -1,0 +1,528 @@
+body{background-image: url(./bg.jpeg);
+background-attachment: fixed;
+background-size: cover;
+width: 100%;
+height: 200vh;}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section6 {
+    width: 90%;
+    height: 90vh;
+    margin-left: 45PX;
+    margin-top: 30px;
+
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+
+
+.section9 h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-shadow: 0 0 4px black;
+}
+
+.section9 h1:hover {
+    color: deepskyblue;
+}
+
+
+
+
+.section7 {
+    width: 60vw;
+    height: 110vh;
+    margin-left: 180px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.section10 h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.section7 p {
+    text-align: center;
+    margin-top: 15px
+}
+
+.section10 h1 {
+    color: black;
+
+}
+
+.section10 h1:hover {
+    color: whitesmoke;
+}
+
+
+
+.img-box4 {
+    width: 80px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(./mazar-e-quaid.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: width 0.5s;
+    position: relative;
+    bottom: 50PX;
+
+}
+
+.img-box4:nth-child(2) {
+    background-image: url(./m-pakistan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:nth-child(4) {
+    background-image: url(./kpk4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:nth-child(3) {
+    background-image: url(./Quaid-Residency-Ziarat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+ .img-box4 h6 {
+    color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+    text-shadow: 0 0 9px black;
+}
+
+.img-box4:hover h6 {
+    opacity: 1;
+    bottom: 25px;
+} 
+
+.img-6 {
+    width: 80px;
+    height: 270px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(./ayeza-khan-14th-august.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: width 0.5s;
+    position: relative;
+    bottom: 130px;
+
+}
+
+.img-6:nth-child(2) {
+    background-image: url(./qg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6:nth-child(3) {
+    background-image: url(./smk171-green.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+/* .section2{margin-left: -15px;} */
+
+.section2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: -15px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.section1 h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.section2 p{
+    text-align: center;
+    margin-top: 15px
+}
+.section1 h1 a{
+    text-decoration: none;
+    color: black;
+}
+.section1 h1 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages{
+    width: 60vw;
+    height: 80vh;
+    /* display: flex; */
+    margin-left: -15px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+/* .packages{margin-left: -15;} */
+.packages h1{
+    width: 60vw;
+    height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.packages-pro1{
+    display: flex;
+}
+.packages1{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages2{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages-pro2{
+    display: flex;
+}
+.packages3{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages4{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+}
+.packages-pro1 .packages1 h3{
+    margin: 2px 4px;
+}
+.packages-pro1 .packages2 h3{
+    margin: 8px 8px 19px 4px;
+}
+.packages-pro2 .packages3 h3{
+    margin: 8px 8px 19px 4px;
+}
+.packages-pro2 .packages4 h3{
+    margin: 2px 4px;
+}
+.packages-pro1 .packages1 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro1 .packages2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro2 .packages3 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro2 .packages4 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.packages-pro1 .packages1 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro1 .packages2 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro2 .packages3 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages-pro2 .packages4 h3 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.packages .services h1 a{
+    text-decoration: none;
+    color: black;
+}
+.packages .services h1 a:hover{
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.jasmine0{margin-right: 200px;}
+.About{
+    width: 98vw;
+    height: 80vh;
+    margin-top: 45px;
+    display: flex;
+    margin-left: 180px;
+}
+.About1{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About2{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About3{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About .About1 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About2 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.About .About1 p{
+    text-align: center;
+}
+.About .About2 p{
+    text-align: center;
+}
+.About .About3 p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    width: 95vw;
+    background: transparent;
+    color: black;
+    margin-left: -15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+    height: 15%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 18px;
+}
+
+
+
+
+
+
+.logo {
+    margin: 5px;
+    letter-spacing: 3px;
+    font-family: "potta one", cursive;
+    font: 25px;
+    text-shadow: 0 0 4px deepskyblue;
+    color: black;
+
+
+}
+
+
+
+.column h5 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 8px;
+    font-family: "potta one", cursive;
+}
+
+.column h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60%;
+    background-color: deepskyblue;
+    font-family: "potta one", cursive;
+}
+
+.footer-link li {
+    margin: 12px 0;
+    list-style: none;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.footer-link li a:hover {
+    color: deepskyblue;
+    text-shadow: 0 0 12px;
+}
+
+.contact-details li {
+    list-style: none;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details li i {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-right: 12px;
+}
+
+.fa-solid {
+    height: 35px;
+    width: 35px;
+    border: 2px solid deepskyblue;
+    color: black;
+}
+
+.fa-solid:hover {
+    color: whitesmoke;
+    background-color: deepskyblue;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+
+}
+
+.fa-brands {
+    margin-right: 15px;
+}
+
+.fa-brands {
+    height: 35px;
+    width: 35px;
+    border: 2px solid transparent;
+    color: whitesmoke;
+    background-color: black;
+
+
+}
+
+.social-links li i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li i:hover {
+    background: transparent;
+    color: deepskyblue;
+}
+.section3 {
+    width: 90vw;
+    height: 65vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.section3 {
+    margin-left: 180px;
+    margin-top: 45px;
+}
