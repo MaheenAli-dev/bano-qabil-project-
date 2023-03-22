@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -20,103 +20,47 @@
 
 <body>
 
-    <nav class="menu-bar">
-        <img src="green adventure.png" width="200spx">
+    <nav class="menu-bar" data-aos="fade-down" data-aos-duration="1500">
+        <img src="./green adventure.png" width="200spx">
         <h5>Beauty of <span> Pakistan </span></h5>
-        <div>
-
+        <div >
             <ul>
-
-                <li> <a href="#">Home </a> </li>
-                <li> <a href="#"> About <i class="fas fa-caret-down"> </i></a>
-
-
+                <li> <a href="./home.html">Home </a> </li>
+                <li> <a href="#">Provinces<i class="fas fa-caret-down"> </i> </a>
                     <div class="dropdown-menu">
-
-                        <ul>
-
-
-
-                            <li><a href="#">CEO Message</a></li>
-                            <li><a href="#">Director Message</a></li>
-                            <li>
-                                <a href="#">Contact us</a></li>
-
-
-                        </ul>
-
-                    </div>
-
-
+                         <ul>
+                            <li><a href="#">Sindh</a></li>
+                            <li><a href="#">Balochistan</a></li>
+                            <li><a href="#">Punjan</a></li>
+                            <li><a href="#">KPK</a></li>
+                         </ul>     
+                     </div>
                 </li>
-
-                <li> <a href="#"> Services<i class="fas fa-caret-down"> </i> </a>
-
+                <li><a href="#">Private Policy</a></li>
+                <li> <a href="./about.html"> About</a>
+                </li>
+                <li> <a href="./ourservices.html"> Services<i class="fas fa-caret-down"> </i> </a>
                     <div class="dropdown-menu">
                         <ul>
-
-
-
-                            <li><a href="#">Air Ticketing</a></li>
-                            <li><a href="#">Group Traveling</a></li>
+                            <li><a href="#">Family And Friends Trips</a></li>
+                            <li><a href="#">Honeymoon Trips</a></li>
                             <li>
-                                <a href="#">Hotel Reservation</a></li>
-                            <li> <a href="#">Rail Ticket Reservation</a></li>
-                            <li><a href="#">Transport & Car Rental </a></li>
-                            <li><a href="#">Travel Insurance</a></li>
-                            <li><a href="#">Value Added Services</a></li>
-
+                                <a href="#">Winter Trips</a></li>
+                            <li><a href="#">Hikking And Canping Trips</a></li>
                         </ul>
-
-
                     </div>
                 </li>
 
-                <li> <a href="#"> Tour Packages <i class="fas fa-caret-down"> </i> </a>
-
-                    <div class="dropdown-menu">
-
-
-                        <ul>
-
-
-
-                            <li><a href="#">Northen Areas<i class="fas fa-caret-down"></i></a>
-                                <div class="dropdown-menu-2">
-                                    <ul>
-                                        <li><a href="#">Naran</a></li>
-                                        <li><a href="#">Hunza Valley</a></li>
-                                        <li><a href="#">Swat Valley</a></li>
-                                        <li><a href="#">Neelam Valley</a></li>
-                                        <li><a href="#">Muree</a></li>
-                                    </ul>
-                                </div>
-                                <li><a href="#">Cities<i class="fas fa-caret-down"></i></a>
-                                    <div class="dropdown-menu-1">
-
-                                        <ul>
-                                            <li><a href="#">Lahore</a></li>
-                                            <li><a href="#">Islamabad</a></li>
-                                            <li><a href="#">Abbottabad</a></li>
-                                            <li><a href="#">Sialkot</a></li>
-                                            <li><a href="#">Faislabad</a></li>
-                                            <li><a href="#">Multan</a></li>
-                                        </ul>
-                                    </div>
-
-                        </ul>
-                    </div>
-                    </li>
-
-
-                        <li><a href="#">Private Policy</a></li>
-
-
+                
             </ul>
         </div>
-
-
     </nav>
+
+
+    <video autoplay loop muted plays-inline class="background-video">
+        <source src="./Girl walking On a Garden full Of Flowers _ Mountains Vlogs _ Nature Shots20 _ Copyright FREE.mp4" type="video/mp4">
+    </video>
+
     <div class="content wow slideInLeft" data-wow-duration="2s "></div>
 
     <div class="content wow slideInLeft" data-wow-duration="2s ">
@@ -130,6 +74,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script>
         new WOW().init();
     </script>
