@@ -126,9 +126,9 @@ img {
     margin-top: 120px;
 }
 .content p{
-    color: white;
+    color:#201510;
 }
-.content a {
+.button a {
     text-decoration: none;
     display: inline-block;
     color: green;
@@ -138,10 +138,16 @@ img {
     border-radius: 50px;
     font-weight: 600;
 }
+.button a:hover{
+    background-color: whitesmoke;
+    color: green;
+    text-decoration: none;
+    font-style: italic;
+}
 
 
 span {
-    color: green;
+    color:green;
 }
 
 
