@@ -1,4 +1,4 @@
-body{background-image: url(./photo-1678723097718-8c7f5ece3a3c.avif);
+body{background-image: url(./backgroun\ image.avif);
 background-attachment: fixed;
 background-size: cover;
 width: 100%;
@@ -379,7 +379,7 @@ footer {
     width: 95vw;
     background: transparent;
     color: black;
-    margin-left: -15px;
+    
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
@@ -624,13 +624,14 @@ footer {
     transition: 0.3s;
 }
 
-img {
+ /* img {
     margin-top: -20px;
     width: 100px;
-    /* margin-right: -405px;
-    margin-left: -30px;
-     */
-}
+     margin-right: -3000px;
+     margin-left: -30px; 
+     
+} */
+
 
 .content {
     text-align: center;
