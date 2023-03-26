@@ -24,6 +24,7 @@ body{
 
 .menu-bar h5 {
     margin-left: -200px;
+    
 }
 
 .menu-bar ul {
@@ -33,9 +34,6 @@ body{
 
 .menu-bar ul li {
     padding: 10px 30px;
-    
-    
-    
     position: relative;
 }
 
@@ -49,8 +47,8 @@ body{
 }
 
 .menu-bar ul li a:hover {
-    color: white;
-    background-color: green;
+    color:whitesmoke;
+    background-color:green;
     border-radius: 10px;
     transition: all 0.3s;
     /* padding-inline: 10px; */
@@ -123,13 +121,18 @@ img {
 
 .content h1 {
     font-size: 160px;
+    
     color: green;
     border-radius: 50px;
     font-weight: 600;
     margin-top: 120px;
 }
+.content h1:hover{
+    -webkit-text-stroke: 4px green;
+    color:transparent;
+}
 .content p{
-    color:#201510;
+    color:  rgb(81, 79, 79);;
 }
 .button a {
     text-decoration: none;
@@ -168,15 +171,3 @@ span {
    top: 0;
    z-index: -1;
 }
-@media(min-aspect-ratio:16/9) {
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media(max-aspect-ratio:16/9) {
-    .back-video {
-        width: auto;
-        height: 100%;
-    }
