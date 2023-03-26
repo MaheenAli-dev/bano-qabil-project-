@@ -1,358 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="province.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-  <style>
-    .section2 {
-    width: 60vw;
-    height: 80vh;
-    margin-left: 250px;
-    margin-top: 100px;
-    
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px 0px;
-}
-body{
-    background-image: url(./backgroun\ image.avif);
-    background-attachment: fixed;
-    background-size: cover;
-    
-}
-
-.section1 h1 {
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 20px;
-}
-
-.section2 p {
-    text-align: center;
-    margin-top: 15px
-}
-
-.section1 h1 a {
-    text-decoration: none;
-    color: black;
-}
-
-.section1 h1 a:hover {
-    color: white;
-    text-shadow: 2px 2px grey;
-}
-
-
-footer {
-    background: transparent;
-    color: black;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    margin: 10px;
-    height: 15%;
-
-
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 70px 18px;
-    margin-top: -55px;
-
-}
-
-
-
-
-
-
-.logo {
-    margin: 5px;
-    letter-spacing: 3px;
-    font-family: "potta one", cursive;
-    font: 25px;
-    text-shadow: 0 0 4px deepskyblue;
-    color: black;
-
-
-}
-
-
-
-.column h5 {
-    font-size: 18px;
-    letter-spacing: 2px;
-    position: relative;
-    padding-bottom: 8px;
-    font-family: "potta one", cursive;
-}
-
-.column h5::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 60%;
-    background-color: deepskyblue;
-    font-family: "potta one", cursive;
-}
-
-.footer-link li {
-    margin: 12px 0;
-    list-style: none;
-}
-
-.footer-link li a {
-    text-decoration: none;
-    color: black;
-    transition: 0.1s;
-}
-
-.footer-link li a:hover {
-    color: deepskyblue;
-    text-shadow: 0 0 12px;
-}
-
-.contact-details li {
-    list-style: none;
-    margin: 12px 0;
-    display: flex;
-    align-items: center;
-}
-
-.contact-details li i {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-    margin-right: 12px;
-}
-
-.fa-solid {
-    height: 35px;
-    width: 35px;
-    border: 2px solid deepskyblue;
-    color: black;
-}
-
-.fa-solid:hover {
-    color: whitesmoke;
-    background-color: deepskyblue;
-}
-
-.social-links {
-    display: flex;
-    list-style: none;
-
-}
-
-.fa-brands {
-    margin-right: 15px;
-}
-
-.fa-brands {
-    height: 35px;
-    width: 35px;
-    border: 2px solid transparent;
-    color: whitesmoke;
-    background-color: black;
-
-
-}
-
-.social-links li i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
-
-.social-links li a {
-    text-decoration: none;
-}
-
-.social-links li i:hover {
-    background: transparent;
-    color: deepskyblue;
-}
-
-.section3 {
-    width: 90vw;
-    height: 65vh;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px 0px;
-}
-
-.section3 {
-    margin-left: 60px;
-    margin-top: 45px;
-}
-.menu-bar {
-    /* text-shadow: 5px 0 0 rgb(224, 218, 218); */
-    color: #fff;
-    height: 90px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-}
-
-.menu-bar h5 {
-    margin-left: -200px;
-}
-
-.menu-bar ul {
-    list-style: none;
-    display: flex;
-}
-
-.menu-bar ul li {
-    padding: 10px 30px;
-    position: relative;
-}
-
-.menu-bar ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    display: flex;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.menu-bar ul li a:hover {
-    color: white;
-    background-color: green;
-    border-radius: 10px;
-    transition: all 0.3s;
-    /* padding-inline: 10px; */
-    padding: 8px;
-}
-
-.dropdown-menu {
-    display: none;
-}
-
-.menu-bar ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: transparent;
-}
-
-.dropdown-menu ul {
-    display: block;
-    margin: 10px;
-}
-
-.dropdown-menu ul li {
-    width: 150px;
-    padding: 10px;
-}
-
-.fas {
-    float: right;
-    margin-left: 10px;
-    padding-top: 3px;
-}
-
-.dropdown-menu-1 {
-    display: none;
-}
-
-.dropdown-menu ul li:hover .dropdown-menu-1 {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 150px;
-    transition: 0.3s;
-}
-
-.dropdown-menu-2 {
-    display: none;
-}
-
-.dropdown-menu ul li:hover .dropdown-menu-2 {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 150px;
-    transition: 0.3s;
-}
-
-img {
-    margin-top: -20px;
-    width: 100px;
-    /* margin-right: -405px;
-    margin-left: -30px;
-     */
-}
-
-.content {
-    text-align: center;
-}
-
-.content h1 {
-    font-size: 160px;
-    color: green;
-    border-radius: 50px;
-    font-weight: 600;
-    margin-top: 120px;
-}
-.content p{
-    color: white;
-}
-.content a {
-    text-decoration: none;
-    display: inline-block;
-    color: green;
-    font-size: 24px;
-    border: 2px solid #fff;
-    padding: 14px 70px;
-    border-radius: 50px;
-    font-weight: 600;
-}
-
-
-span {
-    color: green;
-}
-
-
-.background-video{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-   justify-content: center;
-   align-items:center ;
-   object-fit: cover;
-   bottom: 0;
-   right: 0;
-   left: 0;
-   top: 0;
-   z-index: -1;
-}
-  </style>
 </head>
-<body style="height: 100vh; ">
-    <nav style="margin-left: -15%;" class="menu-bar" data-aos="fade-down" data-aos-duration="1500">
-        <img src="" width="200spx" >
-        <h3>Beauty of <span> Pakistan </span></h3>
+
+<body style="height: 100vh;">
+    <nav style="margin-left: -2%;" class="menu-bar" data-aos="fade-down" data-aos-duration="1500">
+        <img src="./green adventure.png" width="200spx" >
+        <h3 style="margin-left:-22%;">Beauty of <span> Pakistan </span></h3>
         <div >
             <ul>
                 <li> <a href="./home.html">Home </a> </li>
@@ -387,74 +49,71 @@ span {
     
     
     </nav>
-
-    <div class="section2" data-aos="zoom-out-down" data-aos-duration="2500">
-        <div class="section1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-            <h1 style="color:  black;">
-                SECURITY
-            </h1>
+<div style="margin-top: 20%;" class="section2" data-aos="zoom-out-down" data-aos-duration="2500">
+    <div class="section1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h1 >
+            SECURITY
+        </h1>
+    </div>
+   <b> <p style="width: 70vw;margin-left: 12%;margin-top: 10%; font-family: 'Righteous', cursive;color: rgb(81, 79, 79);">Our company, Pakistan Travel Places offers great hospitality and the best services to our clients that truly fulfill the needs of a refreshing and amusing trip. Come and travel with the leading and finest travel company in Lahore and visit the amazing places in Pakistan.</p></b>
+   <b> <p style="width: 70vw;margin-left: 12%;margin-top: 4%; font-family: 'Righteous', cursive;color: rgb(81, 79, 79);"> Do not worry if you’re confused to find the trustworthy Travel agency in Lahore, Pakistan. You can see our
+        client’s review, we are completely different from other traveling firms. People trust on our services
+        blindly and spreading our tour company to others.
+    We arrange a fully entertaining and exploratory journey to your desired destinations. Whether you look
+        forward to getting around all the tourist spots of booked place or even want to focus its highlights to make
+        the tour brief and rejoicing, every client with multiple travel priorities is welcomed at Pakistan Travel
+        Places.</p></b>
+</div>
+</div>
+<footer style="margin-left: 3vh; margin-top: 10%;" >
+    <div class="row" data-aos="zoom-in-down" data-aos-duration="2500">
+        <div class="column">
+            <h3 class="logo">Beauty Of Pakistan</h3>
+            <p class="web-desc">Pakistan, where your journey begins.
+                <br><br>Discover your next great place, find trips and know about the famous travel destinations of
+                Pakistan. <br>A travel and tourism company of Pakistan, city sightseeing, group and corporate tours.
+                <br><br>camping and hiking adventures, family and solo trips, and much more for a perfect travel
+                experience in Pakistan!
+            </p>
         </div>
-        <p>Our company, Pakistan Travel Places offers great hospitality and the best services to our clients that truly fulfill the needs of a refreshing and amusing trip. Come and travel with the leading and finest travel company in Lahore and visit the amazing places in Pakistan.</p>
-        <p>Do not worry if you’re confused to find the trustworthy Travel agency in Lahore, Pakistan. You can see our
-            client’s review, we are completely different from other traveling firms. People trust on our services
-            blindly and spreading our tour company to others.</p>
-        <p>We arrange a fully entertaining and exploratory journey to your desired destinations. Whether you look
-            forward to getting around all the tourist spots of booked place or even want to focus its highlights to make
-            the tour brief and rejoicing, every client with multiple travel priorities is welcomed at Pakistan Travel
-            Places.</p>
+        <div class="column">
+            <h5>QUICK LINK</h5>
+            <ul class="footer-link">
+                <li><a href="about.html">About Us</a></li>
+
+            </ul>
+        </div>
+        <div class="column">
+            <h5 class="lily">LEGAL</h5>
+            <ul class="footer-link">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="security.html">Security</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h5>STAY CONNECTED</h5>
+            <ul class="contact-details">
+                <li><i class="fa-solid fa-envelope"></i><span><i>beautyofpakistan@gmail.com</i></span></li>
+                <li><i class="fa-solid fa-map-location-dot"></i><span><i>Liaquatabad Karachi</i></span></li>
+                <li><i class="fa-solid fa-phone"></i><span><i>0311-24578459</i></span></li>
+            </ul>
+
+            <ul class="social-links">
+                <li><a href="https://github.com/MaheenAli-dev"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/ali.mahi.04/?next=%2F"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
     </div>
-    </div>
-
-    
-    <div class="section3" data-aos="zoom-in-left" data-aos-duration="2000">
+</footer>
 
 
-        <footer>
-            <div class="row">
-                <div class="column">
-                    <h3 class="logo">Beauty Of Pakistan</h3>
-                    <p class="web-desc">Pakistan, where your journey begins.
-                        <br><br>Discover your next great place, find trips and know about the famous travel destinations
-                        of Pakistan. <br>A travel and tourism company of Pakistan, city sightseeing, group and corporate
-                        tours. <br><br>camping and hiking adventures, family and solo trips, and much more for a perfect
-                        travel experience in Pakistan!
-                    </p>
-                </div>
-                <div class="column">
-                    <h5>QUICK LINK</h5>
-                    <ul class="footer-link">
-                        <li><a href="./about.html">About Us</a></li>
 
-                    </ul>
-                </div>
-                <div class="column">
-                    <h5 class="lily">LEGAL</h5>
-                    <ul class="footer-link">
-                        <li><a href="./private.html">Privacy Policy</a></li>
-                        <li><a href="./security.html">Security</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h5>STAY CONNECTED</h5>
-                    <ul class="contact-details">
-                        <li><i class="fa-solid fa-envelope"></i><span><i>beautyofpakistan@gmail.com</i></span></li>
-                        <li><i class="fa-solid fa-map-location-dot"></i><span><i>Liaquatabad Karachi</i></span></li>
-                        <li><i class="fa-solid fa-phone"></i><span><i>0311-24578459</i></span></li>
-                    </ul>
 
-                    <ul class="social-links">
-                        <li><a href="https://github.com/MaheenAli-dev"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/ali.mahi.04/?next=%2F"><i
-                                    class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
+
 </html>
