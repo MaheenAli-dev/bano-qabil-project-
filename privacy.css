@@ -8,7 +8,7 @@
     box-shadow: 5px 5px 20px 0px;
 }
 body{
-    background-image: url(./backgroun\ image.avif);
+    background-image: url(./sky-5907605_960_720.jpg);
     background-attachment: fixed;
     background-size: cover;
     
@@ -36,9 +36,14 @@ body{
 }
 
 
+
 footer {
+    width: 95vw;
     background: transparent;
-    color: black;
+    color:rgb(81, 79, 79);
+    
+    margin-left: -15px;
+   
 }
 
 .row {
@@ -47,8 +52,8 @@ footer {
     justify-content: space-between;
     margin: 10px;
     height: 15%;
-
-
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
 }
 
 .column {
@@ -56,8 +61,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 70px 18px;
-    margin-top: -55px;
-
+   
 }
 
 
@@ -70,8 +74,8 @@ footer {
     letter-spacing: 3px;
     font-family: "potta one", cursive;
     font: 25px;
-    text-shadow: 0 0 4px deepskyblue;
-    color: black;
+    text-shadow: 0 0 4px black;
+    color: whitesmoke;
 
 
 }
@@ -93,7 +97,7 @@ footer {
     bottom: 0;
     height: 3px;
     width: 60%;
-    background-color: deepskyblue;
+    background-color:rgb(81, 79, 79);
     font-family: "potta one", cursive;
 }
 
@@ -104,13 +108,14 @@ footer {
 
 .footer-link li a {
     text-decoration: none;
-    color: black;
+    color:white;
     transition: 0.1s;
+    text-shadow: 0 0 4px black;
 }
 
 .footer-link li a:hover {
-    color: deepskyblue;
-    text-shadow: 0 0 12px;
+    color: rgb(81, 79, 79);
+  
 }
 
 .contact-details li {
@@ -132,13 +137,13 @@ footer {
 .fa-solid {
     height: 35px;
     width: 35px;
-    border: 2px solid deepskyblue;
-    color: black;
+    border: 2px solid white;
+    color:rgb(81, 79, 79);
 }
 
 .fa-solid:hover {
-    color: whitesmoke;
-    background-color: deepskyblue;
+    color:rgb(81, 79, 79);
+    background-color:white;
 }
 
 .social-links {
@@ -155,8 +160,8 @@ footer {
     height: 35px;
     width: 35px;
     border: 2px solid transparent;
-    color: whitesmoke;
-    background-color: black;
+    color: white;
+    background-color:rgb(81, 79, 79);
 
 
 }
@@ -174,20 +179,30 @@ footer {
 
 .social-links li i:hover {
     background: transparent;
-    color: deepskyblue;
+    color: rgb(81, 79, 79);
 }
-
 .section3 {
     width: 90vw;
     height: 65vh;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
+   
 }
 
 .section3 {
-    margin-left: 60px;
+    margin-left: 180px;
     margin-top: 45px;
+   
 }
+
+
+
+
+
+
+
+
+
 .menu-bar {
     /* text-shadow: 5px 0 0 rgb(224, 218, 218); */
     color: #fff;
