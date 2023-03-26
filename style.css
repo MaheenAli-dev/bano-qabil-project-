@@ -171,3 +171,58 @@ span {
    top: 0;
    z-index: -1;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    
+        .menu-bar ul li {
+            padding: 10px 30px;
+            position: relative;
+            display: none;
+        }
+        .content h1{
+            font-size:40px ;
+            margin-top: -20%;
+
+        }
+        .background-video{
+          
+            object-fit: 100vh 50vw;
+            
+           
+         }
+         .content p{
+            font-size: 10px;
+         }
+        .button a {
+            font-size: 10px;
+            border-radius: 10px;
+        }
+        .menu-bar h5{
+            font-size: 7px;
+        }
+        .menu-bar .logo{
+            width: 50px;
+        }
+
+} 
+ @media (min-width: 481px) and (max-width: 768px) {
+    .menu-bar ul li {
+        padding: 10px 30px;
+        position: relative;
+        display: none;
+        
+    }
+    .content h1{
+        font-size:60px ;
+
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content h1{
+        font-size:90px ;
+
+    }
+    .content p{
+        font-size: 25px;
+     }
+} 
+
