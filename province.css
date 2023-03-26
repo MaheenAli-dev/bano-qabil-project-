@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./backgroun\ image.avif);
+    background-image: url(./sky-5907605_960_720.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -37,13 +37,13 @@ body {
 
 .section2 {
     width: 90%;
-    height: 90vh;
+    height: 60vh;
     margin-left: 55PX;
     margin-top: 30px;
-
-
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
+
+   
 }
 
 .section1 h1 {
@@ -59,19 +59,24 @@ body {
 
 
 .section3 {
-    width: 60vw;
+    width: 90%;
     height: 120vh;
     margin-left: 180px;
     margin-top: 45px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
 }
-.gigy8{ margin-left: 230px;
+.gigy8{ margin-left: 60px;
     margin-top: 45px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 0px;
-    width: 60vw;
-    height: 120vh;
+    width: 90%;
+    height: 100vh;
+    justify-content: center;
+    color:rgb(81, 79, 79) ;
+}
+.section4 h1{
+    margin-top: -50%;
 }
 
 
@@ -215,7 +220,7 @@ body {
     background-position: center;
     transition: width 0.5s;
     position: relative;
-    bottom: 130px;
+    bottom: 200px;
 
 }
 
@@ -618,6 +623,8 @@ footer {
     justify-content: space-between;
     margin: 10px;
     height: 15%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
 }
 
 .column {
@@ -625,6 +632,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 70px 18px;
+   
 }
 
 
@@ -747,13 +755,172 @@ footer {
 .section3 {
     width: 90vw;
     height: 65vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
    
 }
 
 .section3 {
     margin-left: 180px;
     margin-top: 45px;
+   
 }
+.jasmine0{margin-right: 200px;}
+.About{
+    width: 98vw;
+    height: 80vh;
+    margin-top: 45px;
+    display: flex;
+    margin-left: 180px;
+}
+.About1{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About2{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About3{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px;
+}
+.About .About1 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About2 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.About .About3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.About .About1 p{
+    text-align: center;
+}
+.About .About2 p{
+    text-align: center;
+}
+.About .About3 p{
+    text-align: center;
+}
+.img-box4 {
+    width: 80px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(./mazar-e-quaid.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: width 0.5s;
+    position: relative;
+    bottom: 50PX;
+
+}
+
+.img-box4:nth-child(2) {
+    background-image: url(./m-pakistan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:nth-child(4) {
+    background-image: url(./kpk4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:nth-child(3) {
+    background-image: url(./Quaid-Residency-Ziarat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+ .img-box4 h6 {
+    color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+    text-shadow: 0 0 9px black;
+}
+
+.img-box4:hover h6 {
+    opacity: 1;
+    bottom: 25px;
+} 
+
+.img-6 {
+    width: 80px;
+    height: 270px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(./ayeza-khan-14th-august.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: width 0.5s;
+    position: relative;
+    bottom: 130px;
+
+}
+
+.img-6:nth-child(2) {
+    background-image: url(./qg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6:nth-child(3) {
+    background-image: url(./smk171-green.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
 
 
 
